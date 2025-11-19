@@ -1,11 +1,11 @@
-# 🏦 Loan Approval Prediction System
+# Loan Approval Prediction System
 
 Welcome to the **Loan Approval Prediction** project!  
 This application allows users to submit personal and financial information to predict, using a machine learning model, whether a loan will likely be **approved** or **rejected**.
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |:--|:--|
@@ -17,7 +17,7 @@ This application allows users to submit personal and financial information to pr
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset includes features like:
 - **Personal Information** (Age, Gender, Education)
@@ -30,7 +30,7 @@ The dataset includes features like:
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```plaintext
 /loan
@@ -46,18 +46,18 @@ The dataset includes features like:
 ├── README.md
 ├── requirements.txt
 ```
-## ✨ Features
-📄 Dynamic form to collect applicant information
+## Features
+Dynamic form to collect applicant information
 
-📈 Real-time loan approval prediction based on trained ML model
+Real-time loan approval prediction based on trained ML model
 
-🎨 Modern UI using TailwindCSS and TypeScript
+Modern UI using TailwindCSS and TypeScript
 
-⚡ Fast and secure API communication between React and Flask
+Fast and secure API communication between React and Flask
 
-📦 Full pipeline saved and deployed easily
+Full pipeline saved and deployed easily
 
-## 🔥 How to Run Locally
+## How to Run Locally
 1. Backend (Flask)
  ```bash
 cd loan
@@ -74,9 +74,9 @@ npm run dev
 ```
 Frontend will run on ➔ http://localhost:5173
 
-## 🔁 Model Performance Comparison: Before vs After Normalization
+## Model Performance Comparison: Before vs After Normalization
 
-### ✅ Summary Table
+### Summary Table
 
 | Model                  | Accuracy (Before) | Accuracy (After) | Precision (Before) | Precision (After) | False Negatives (Before → After) |
 |------------------------|------------------|------------------|---------------------|--------------------|-----------------------------------|
@@ -88,22 +88,22 @@ Frontend will run on ➔ http://localhost:5173
 
 ---
 
-### 🧠 Observations
+### Observations
 
-- 🔥 **K-Nearest Neighbors (KNN)** showed the **most significant improvement**:
+- **K-Nearest Neighbors (KNN)** showed the **most significant improvement**:
   - Accuracy jumped by **6.4%**
   - False Negatives dropped by nearly **450 cases**
   - Precision rose from **68.9% → 82.7%**
 
-- ✅ **Logistic Regression** also benefited from normalization, improving across all key metrics.
+- **Logistic Regression** also benefited from normalization, improving across all key metrics.
 
-- 🧱 **Random Forest** and ⚡ **XGBoost** remained highly stable — expected behavior due to their **scale-invariance**.
+- **Random Forest** and ⚡ **XGBoost** remained highly stable — expected behavior due to their **scale-invariance**.
 
-- 📉 **Linear Regression (converted)** showed no change, as expected.
+- **Linear Regression (converted)** showed no change, as expected.
 
 ---
 
-### 🏆 Final Recommendations
+### Final Recommendations
 
 | Goal                     | Best Model             |
 |--------------------------|------------------------|
@@ -112,7 +112,7 @@ Frontend will run on ➔ http://localhost:5173
 | **Balance + Interpretability** | ✅ Logistic Regression    |
 
 ---
-## 📚 References & Credits
+## References & Credits
 
 - **Dataset:** Based on a dataset introduced in a Medium article on Loan Prediction.
 - **Machine Learning Guidance:**  
